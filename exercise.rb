@@ -11,3 +11,12 @@ a = "Hello"
 puts a
 b = "World!"
 puts a + b
+
+def hello(name)
+    puts "Hello #{name}!"
+end
+hello("David")
+def add(a, b)
+    a + b
+end
+puts add(4,5)
